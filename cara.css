@@ -1134,3 +1134,28 @@ footer .copyright{
         padding: 20px;
     }
 }
+.logo1 {
+    width: 100px;
+    height: 100px;
+    background-color: #e3e6f3;
+    position: relative;
+    animation-name: logoAnimation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 100rem;
+  }
+  
+  @keyframes logoAnimation {
+    70% {
+      transform: rotate(0deg);
+    }
+    60% {
+      transform: rotate(180deg);
+      background-color: #162556;
+    }
+    50% {
+      transform: rotate(360deg);
+      background-color: #000000;
+    }
+  }
